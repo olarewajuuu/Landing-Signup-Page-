@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(97, 97, 243);
+}
+.container{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin: 70px 0;
+   
+}
+.register{
+    display: grid;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.register .underline{
+    border-bottom: 2px solid black;
+}
+.register .input{
+    height: 35px;
+    width: 300px;
+    margin: 10px;
+}
+.register .checkbox{
+    margin: 10px 5px;
+}
+.register .checkbox input{
+    margin-right: 10px;
+}
+.register button{
+    height: 35px;
+    background-color: rgb(97, 97, 243);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.register a{
+    text-decoration: none;
+}
+.word h1{
+    font-size: 100px;
+    color: white;
+}
